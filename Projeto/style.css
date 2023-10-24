@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    height: 100vh;
+    background-color: rgb(55, 117, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    color: rgb(48, 56, 63);
+    font-size: 20px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(62, 122, 231);
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(55, 117, 231);
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#tarefas{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    padding: 10px;
+    margin: 10px;
+}
